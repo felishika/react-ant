@@ -1,14 +1,6 @@
-.idea/
-build/
-build-dll-dev/
-build-dll-ssr/
-build-plugin/
-build-plugin-node/
+
 node_modules/
 .vscode/
-lerna-debug.log
-server.exe
-planeta_front.zip
 *.log
 *.log.*
 .env.local
