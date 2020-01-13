@@ -1,0 +1,27 @@
+{
+  "name": "react-ant",
+  "version": "1.0.0",
+  "description": "temp repository for tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felishika/react-ant.git"
+  },
+  "keywords": [
+    "react",
+    "css",
+    "UI"],
+    "author": {
+      "name": "Felishika",
+      "email": "felishika@gmail.com",
+      "url": "https://github.com/felishika"
+    },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felishika/react-ant/issues"
+  },
+  "homepage": "https://github.com/felishika/react-ant#readme"
+}
