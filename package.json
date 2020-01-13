@@ -4,7 +4,10 @@
   "description": "temp repository for tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "./node_modules/.bin/eslint '**/*.{js,ts,tsx}'",
+    "eslint:fix": "npm run eslint -- --fix",
+    "format": "prettier-eslint '**/*.{js,ts,tsx}' --write"
   },
   "repository": {
     "type": "git",
@@ -13,15 +16,31 @@
   "keywords": [
     "react",
     "css",
-    "UI"],
-    "author": {
-      "name": "Felishika",
-      "email": "felishika@gmail.com",
-      "url": "https://github.com/felishika"
-    },
+    "UI"
+  ],
+  "author": {
+    "name": "Felishika",
+    "email": "felishika@gmail.com",
+    "url": "https://github.com/felishika"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/felishika/react-ant/issues"
   },
-  "homepage": "https://github.com/felishika/react-ant#readme"
+  "homepage": "https://github.com/felishika/react-ant#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
+    "@typescript-eslint/parser": "^2.15.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier-eslint": "^9.0.1",
+    "prettier-eslint-cli": "^5.0.0"
+  },
+  "dependencies": {
+    "typescript": "^3.7.4"
+  }
 }
